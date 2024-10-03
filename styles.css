@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lily Script One", system-ui;
+}
+
+  
+
+body {
+    background-color: #f9f4f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-image: url('back.png'); /* Replace with your image path */
+    height: 100vh;
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #000;
+    font-family: 'Cursive';
+}
+
+.registration-form {
+    background-color: #fbd3d3;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: 'Cursive';
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000000;
+    padding: 5px;
+}
+
+.input-box label {
+    margin-right: 10px;
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #e85353;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff4040;
+}
+
+.registration-form p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registration-form p a {
+    color: #e85353;
+    text-decoration: none;
+}
+
+.registration-form p a:hover {
+    text-decoration: underline;
+}
+.social-icon {
+    display: flex;
+    justify-content: center; /* Aligns icons horizontally in the center */
+    align-items: center;     /* Aligns icons vertically in the center */
+    gap: 20px;               /* Adds space between icons */
+    margin-top: 20px;
+}
+
+.social-icon a {
+    color: #333;             /* Set the icon color */
+    font-size: 24px;         /* Adjust the size of the icons */
+    text-decoration: none;
+    transition: transform 0.5s;
+
+}
+
+.social-icon a:hover {
+    color: #e85353; 
+    transform: translateY(-5px); 
+}
